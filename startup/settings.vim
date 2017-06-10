@@ -33,6 +33,7 @@ let g:gist_open_browser_after_post = 1
 "========================================
 let g:python3_host_prog = "/usr/bin/python3"
 let g:python_host_prog = "/usr/bin/python"
+autocmd Filetype gitcommit setlocal spell textwidth=72
 set clipboard+=unnamedplus
 set cursorline
 set encoding=utf-8
@@ -202,3 +203,8 @@ let g:vim_tags_auto_generate = 1
 
 "Split-term
 let g:split_term_vertical = 1
+
+"neomake
+
+let blacklisted_files = ['schema.rb', 'routes.rb']
+autocmd! BufWritePost,BufEnter * if index(blacklisted_files, expand('%:t')) < 0 | Neomake

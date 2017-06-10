@@ -48,7 +48,7 @@ Plug 'tpope/vim-surround'
 "Vim script for text filtering and alignment
 Plug 'godlygeek/tabular'
 "Send command from vim to a running tmux session
-" Plug 'jgdavey/tslime.vim'
+Plug 'jgdavey/tslime.vim'
 "plugin for commenting
 Plug 'tpope/vim-commentary'
 "Fold markdown documents by section.

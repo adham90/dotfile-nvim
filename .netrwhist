@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/home/adham/.config/termite'
 let g:netrw_dirhist_2='/home/adham/work/eventtus/vag/provisioning'
 let g:netrw_dirhist_3='/home/adham/work/eventtus/vag'
+let g:netrw_dirhist_4='/home/adham/.rvm/gems/ruby-2.3.0/gems/activerecord-4.2.7.1/lib/active_record'
