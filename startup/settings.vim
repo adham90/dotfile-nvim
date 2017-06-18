@@ -1,4 +1,4 @@
-let mapleader = " "
+let mapleader = ","
 
 syntax on " enable syntax highlighting
 
