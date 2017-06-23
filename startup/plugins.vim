@@ -92,4 +92,8 @@ Plug 'Align'
 " j2 syntax
 Plug 'glench/vim-jinja2-syntax'
 
+" jsx
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+
 call plug#end()

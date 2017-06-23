@@ -12,6 +12,9 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
+" ReactJS
+let g:jsx_ext_required = 0
+
 "================================
 " neomake
 "================================
@@ -34,6 +37,10 @@ let g:gist_open_browser_after_post = 1
 let g:python3_host_prog = "/usr/bin/python3"
 let g:python_host_prog = "/usr/bin/python"
 autocmd Filetype gitcommit setlocal spell textwidth=72
+" tell it to use an undo file
+set undofile
+" set a directory to store the undo history
+set undodir=~/.vimundo/
 set clipboard+=unnamedplus
 set cursorline
 set encoding=utf-8
